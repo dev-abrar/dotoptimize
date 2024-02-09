@@ -13,6 +13,12 @@ npm run build
 
 
 
+to make fake data:
+php artisan tinker
+User::factory()->count(2)->create()
+
+
+
 
 
 
